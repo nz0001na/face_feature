@@ -2,8 +2,14 @@
 
 This repository contains a few of typical algorithms to extacting face image features.
 # texture-based 
-  ORB, SIFT, SURF, Image Gradient, LBP, LPQ, HOG, BISF, DFT, FFT
+  ORB [python], SIFT [python], SURF [python], 
+  Image Gradient [MatLab], LBP [MatLab], LPQ [MatLab], 
+  HOG [MatLab], BISF [MatLab], DFT [python], FFT [python].
+  
 # deep learning based
+  These models are based on Keras, made available alongside pre-trained weights.
+  These models can be used for prediction, feature extraction, and fine-tuning by modifing.
+
   * [[VGG16, VGG19]](https://arxiv.org/abs/1409.1556): Very Deep Convolutional Networks for Large-Scale Image Recognition (ICLR 2015).
   * [[Xception]](https://arxiv.org/abs/1610.02357): Xception: Deep Learning with Depthwise Separable Convolutions (CVPR 2017).
   * [[ResNet50, ResNet101, ResNet152]](https://arxiv.org/abs/1512.03385): Deep Residual Learning for Image Recognition (CVPR 2015).
@@ -14,6 +20,8 @@ This repository contains a few of typical algorithms to extacting face image fea
   * [[InceptionResNetV2]](https://arxiv.org/abs/1602.07261):Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning (AAAI 2017) .
   * [[EfficientNet]](https://arxiv.org/abs/1905.11946) : EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks (ICML 2019) .
   * [[DenseNet121, DenseNet169, DenseNet201]](https://arxiv.org/abs/1608.06993): Densely Connected Convolutional Networks (CVPR 2017).
+  
 # image quality based 
-  FIQA_NSS, Steganalysis, IQM.
+  FIQA_NSS [MatLab], Steganalysis [MatLab], 
+  IQM [python].
   
